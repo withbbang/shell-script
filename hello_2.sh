@@ -19,4 +19,5 @@ echo ${string}
 
 #환경 변수 선언
 export hello_world="hello world..."
+#외부 스크립트 파일 호출
 ./export_test.sh
