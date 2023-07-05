@@ -36,4 +36,4 @@
 > > 각각 8진수의 값으로 읽기, 쓰기, 실행 권한이 사용자마다 따로 부여될 수 있다.<br/>
 > > rwx rwx rwx -> 421 421 421 (r: read, w: write, x: execute)<br/>
 > > ex) test.txt 파일 소유자에게만 읽기 권한을 주어라.<br/>
-> > chmod 400 test.txt<br/>
+> > --> chmod 400 test.txt<br/>
