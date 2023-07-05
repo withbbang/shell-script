@@ -77,19 +77,19 @@
   >
   > ex) **[정규표현식으로 찾기]** <br/>
   > > **특정 파일에서 ab 문자열이 포함된 행을 찾기**<br/>
-  > > --> grep '^[ab]' 파일명<br/>
+  > > --> grep '^[ab]' fileName.txt<br/>
   > > **특정 파일에서 a로 시작하는 모든 단어를 찾기**<br/>
-  > > --> grep 'a\*' 파일명<br/>
+  > > --> grep 'a\*' fileName.txt<br/>
   > > **특정 파일에서 a로 시작하고 z로 끝나는 5자리 단어를 찾기**<br/>
-  > > --> grep 'a...z' 파일명<br/>
+  > > --> grep 'a...z' fileName.txt<br/>
   > > **특정 파일에서 a,b,c로 시작하는 단어를 모두 찾기**<br/>
-  > > --> grep [a-c] 파일명<br/>
+  > > --> grep [a-c] fileName.txt<br/>
   > > **특정 파일에서 apple 또는 Apple로 시작하는 단어를 모두 찾기**<br/>
-  > > --> grep [aA]pple 파일명<br/>
+  > > --> grep [aA]pple fileName.txt<br/>
   > > **특정 파일에서 a나 b로 시작되는 모든 행을 찾기**<br/>
-  > > --> grep '^[ab]' 파일명<br/>
+  > > --> grep '^[ab]' fileName.txt<br/>
   > > **특정 파일에서 apple로 시작되고 0나 9의 숫자로 끝나로 시작되는 모든 행을 찾기**<br/>
-  > > --> grep 'apple'[0-9] 파일명<br/>
+  > > --> grep 'apple'[0-9] fileName.txt<br/>
   >
   > ex) **실시간 mylog 로그에서 대소문자를 구분하지 않고 abc와 일치 하는 행만 출력해라.**<br/>
   > --> tail -f mylog.log | grep -i -w 'abc'<br/>
