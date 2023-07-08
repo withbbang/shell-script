@@ -95,3 +95,11 @@
   > --> tail -f mylog.log | grep -i -w 'abc'<br/>
   > ex) **특정 파일에서 여러개 문자열 찾기**<br/>
   > --> cat mylog.txt | grep 'Apple' | grep 'Banana'<br/>
+
+- cp [option] [origin file/folder] [new file/folder]
+
+  > ssh: copy의 약자로 파일이나 폴더를 복사하는 명령어이다<br/>
+-i: 비공개키 파일을 사용하여 접속한다.
+ex) ssh ./test.pem ubuntu@192.168.0.0
+-p: 포트 번호를 지정하여 접속할 수 있다.
+ex) ssh -p 3000 ubuntu@192.168.0.0
