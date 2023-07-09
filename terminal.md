@@ -98,7 +98,7 @@
 
 - cp [option] [origin file/folder] [new file/folder]
 
-  > ssh: copy의 약자로 파일이나 폴더를 복사하는 명령어이다<br/>
+  > cp: copy의 약자로 파일이나 폴더를 복사하는 명령어이다<br/>
 -i: 비공개키 파일을 사용하여 접속한다.
 ex) ssh ./test.pem ubuntu@192.168.0.0
 -p: 포트 번호를 지정하여 접속할 수 있다.
