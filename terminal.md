@@ -96,10 +96,24 @@
   > ex) **특정 파일에서 여러개 문자열 찾기**<br/>
   > --> cat mylog.txt | grep 'Apple' | grep 'Banana'<br/>
 
-- cp [option] [origin file/folder] [new file/folder]
+  - tail [option] [file]
 
-  > cp: copy의 약자로 파일이나 폴더를 복사하는 명령어이다<br/>
--i: 비공개키 파일을 사용하여 접속한다.
-ex) ssh ./test.pem ubuntu@192.168.0.0
--p: 포트 번호를 지정하여 접속할 수 있다.
-ex) ssh -p 3000 ubuntu@192.168.0.0
+  > tail: 파일의 마지막 행을 기준으로 지정한 행까지의 파일 내용 일부를 출력해주는 명령어이다.<br/>
+  > **-f: tail을 종료하지 않고 파일의 업데이트 내용을 실시간으로 계속 출력하는 옵션**<br/>
+  > -n: 파일의 마지막줄부터 지정한 라인수까지의 내용을 출력하는 옵션<br/>
+  > -q : 파일의 헤더와 상단의 파일 이름을 출력하지 않고 내용만 출력하는 옵션<br/>
+  > -v : 출력하기전에 파일의 헤더와 이름 먼저 출력한 후 파일의 내용을 출력하는 옵션<br/>
+  > ex) **파일의 헤더와 이름 그리고 10번째 줄까지 출력해라.**<br/>
+  > --> tail -v -n 10 fileName<br/>
+
+  - cp [option] [origin file/folder] [new file/folder]
+
+  > cp: copy의 약자로 파일이나 폴더를 복사하는 명령어이다.<br/>
+  > ex) **cp old_file new_file**<br/>
+  > ex) **cp ./old_file ../some_directory/new_file<br/>
+  > **-r: 디렉터리를 복사할 때 꼭 추가해야할 옵션**<br/>
+  > ex) cp -r old_directory new_directory<br/>
+  > ex) 여러개를 한번에 복사하고 싶을 때 / cp [복사 대상1] [복사 대상2] [복사 대상3] ..... [복사 될 경로]<br/>
+  > --> cp test1.txt test2.txt test3.txt ../some_directory/<br/>
+  > ex) 현재 위치에 있는 모든 파일 복사 / cp * [복사 될 경로]
+  > --> cp * ../some_directory/<br/>
