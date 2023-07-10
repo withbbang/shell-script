@@ -96,7 +96,7 @@
   > ex) **특정 파일에서 여러개 문자열 찾기**<br/>
   > --> cat mylog.txt | grep 'Apple' | grep 'Banana'<br/>
 
-  - tail [option] [file]
+- tail [option] [file]
 
   > tail: 파일의 마지막 행을 기준으로 지정한 행까지의 파일 내용 일부를 출력해주는 명령어이다.<br/>
   > **-f: tail을 종료하지 않고 파일의 업데이트 내용을 실시간으로 계속 출력하는 옵션**<br/>
@@ -106,7 +106,7 @@
   > ex) **파일의 헤더와 이름 그리고 10번째 줄까지 출력해라.**<br/>
   > --> tail -v -n 10 fileName<br/>
 
-  - cp [option] [origin file/folder] [new file/folder]
+- cp [option] [origin file/folder] [new file/folder]
 
   > cp: copy의 약자로 파일이나 폴더를 복사하는 명령어이다.<br/>
   > ex) **cp old_file new_file**<br/>
