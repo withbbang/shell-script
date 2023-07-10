@@ -110,7 +110,7 @@
 
   > cp: copy의 약자로 파일이나 폴더를 복사하는 명령어이다.<br/>
   > ex) **cp old_file new_file**<br/>
-  > ex) **cp ./old_file ../some_directory/new_file<br/>
+  > ex) **cp ./old_file ../some_directory/new_file**<br/>
   > **-r: 디렉터리를 복사할 때 꼭 추가해야할 옵션**<br/>
   > ex) cp -r old_directory new_directory<br/>
   > ex) 여러개를 한번에 복사하고 싶을 때 / cp [복사 대상1] [복사 대상2] [복사 대상3] ..... [복사 될 경로]<br/>
