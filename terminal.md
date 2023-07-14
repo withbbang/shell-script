@@ -131,7 +131,7 @@
 
 - zip [option] [zipFileName.zip] [destination directory]
 
-  > mv: 파일이나 디렉토리를 압축하는 명령어이다.<br/>
+  > zip: 파일이나 디렉토리를 압축하는 명령어이다.<br/>
   > ex) /path/to 경로에 있는 dir 디렉토리를 compressed의 이름으로 압축해라.<br/>
   > --> **zip -r compressed.zip /path/to/dir**<br/>
   > ex) dir1, dir2, file3 세 개의 소스를 압축해라.<br/>
@@ -142,3 +142,14 @@
   > --> zip -9 -r compressed.zip /path/to/dir -x '*.git*'
   > ** -r: recursive하게 압축한다는 뜻으로, 폴더 안 파일을 전부 압축할 때 필요**<br/>
   > -#[number]: 압축 수준을 나타내는 옵션으로 높을 수록 수준이 높다.<br/>
+  > -e: zip파일에 암호 설정<br/>
+
+- unzip [option] [zipFileName.zip]
+
+  > zip: zip파일의 압축을 푸는하는 명령어이다.<br/>
+  > ex) 현재 디렉터리에 압축을 풀어라.<br/>
+  > --> **unzip compressed.zip**<br/>
+  > -l: 압축 해제하지 않고 압축파일 내 목록만 출력<br/>
+  > ex) unzip -l compressed.zip<br/>
+  > -d: 지정한 디렉터리에 압축 해제<br/>
+  > ex) unzip compressed.zip -d /path/to/some_directory<br/>
