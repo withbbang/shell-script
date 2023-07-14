@@ -128,3 +128,14 @@
   > ex) /app/bin/logs 디렉토리의 log.txt 파일을 /app/dw 디렉토리로 이동<br/>
   > --> mv /app/bin/logs/log.txt /app/dw<br/>
   > ** -r: recursive하게 옮긴다는 뜻으로, 폴더 안 파일을 전부 옮길 때 필요<br/>
+
+- zip [option] [zipFileName.zip] [destination directory]
+
+  > mv: 파일이나 디렉토리를 압축하는 명령어이다.<br/>
+  > ex) /path/to 경로에 있는 dir 디렉토리를 compressed의 이름으로 압축해라.<br/>
+  > --> **zip -r compressed.zip /path/to/dir**<br/>
+  > ex) dir1, dir2, file3 세 개의 소스를 압축해라.<br/>
+  > --> zip -r compressed.zip ./dir1 ./dir2 ./file3<br/>
+  > ex) 이미 존재하는 compressed.zip 파일에 새로운 파일 추가.<br/>
+  > --> zip compressed.zip /path/to/file<br/>
+  > ** -r: recursive하게 압축한다는 뜻으로, 폴더 안 파일을 전부 압축할 때 필요<br/>
