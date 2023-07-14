@@ -127,7 +127,7 @@
   > --> mv test testest<br/>
   > ex) /app/bin/logs 디렉토리의 log.txt 파일을 /app/dw 디렉토리로 이동<br/>
   > --> mv /app/bin/logs/log.txt /app/dw<br/>
-  > ** -r: recursive하게 옮긴다는 뜻으로, 폴더 안 파일을 전부 옮길 때 필요<br/>
+  > ** -r: recursive하게 옮긴다는 뜻으로, 폴더 안 파일을 전부 옮길 때 필요<**br/>
 
 - zip [option] [zipFileName.zip] [destination directory]
 
@@ -138,4 +138,7 @@
   > --> zip -r compressed.zip ./dir1 ./dir2 ./file3<br/>
   > ex) 이미 존재하는 compressed.zip 파일에 새로운 파일 추가.<br/>
   > --> zip compressed.zip /path/to/file<br/>
-  > ** -r: recursive하게 압축한다는 뜻으로, 폴더 안 파일을 전부 압축할 때 필요<br/>
+  > ex) -x 옵션을 사용하며 .git 폴더는 제외하고 압축해라. (.git 앞뒤에 * 주의)<br/>
+  > --> zip -9 -r compressed.zip /path/to/dir -x '*.git*'
+  > ** -r: recursive하게 압축한다는 뜻으로, 폴더 안 파일을 전부 압축할 때 필요**<br/>
+  > -#[number]: 압축 수준을 나타내는 옵션으로 높을 수록 수준이 높다.<br/>
