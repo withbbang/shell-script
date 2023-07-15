@@ -145,6 +145,7 @@
   > -e: zip파일에 암호 설정<br/>
 
 - unzip [option] [zipFileName.zip]
+
   > zip: zip파일의 압축을 푸는하는 명령어이다.<br/>
   > ex) 현재 디렉터리에 압축을 풀어라.<br/>
   > --> **unzip compressed.zip**<br/>
