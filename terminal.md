@@ -143,3 +143,7 @@
   > ex) unzip -l compressed.zip<br/>
   > -d: 지정한 디렉터리에 압축 해제<br/>
   > ex) unzip compressed.zip -d /path/to/some_directory<br/>
+
+- whoami
+
+  > whoami: 현재 사용자의 이름을 출력하는 명령어이다.<br/>
