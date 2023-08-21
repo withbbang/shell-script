@@ -172,3 +172,6 @@
 
 - history
   > history: 이전에 사용했던 명령어를 확인하는 명령어이다.<br/>
+
+- cat
+  > cat:  concatenate의 약자로 파일의 내용을 읽어 화면에 출력해주는 명령어이다..<br/>
