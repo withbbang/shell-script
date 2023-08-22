@@ -186,5 +186,12 @@
   > -p: 포트 번호를 지정하여 접속할 수 있다.<br/>
   > ex) **sftp -p 3000 ubuntu@192.168.0.0**<br/>
   > > put: sftp로 접속하고 로컬에서 원격 서버에 파일을 업로드하는 명령어이다.<br/>
+  > > ex) put test.txt
   > > get: sftp로 접속하고 원격 서버에서 로컬에 파일을 다운로드하는 명령어이다.<br/>
+  > > ex) get text.txt<br/>
+  > > sftp로 원격 서버 접속 후 로컬 디렉터리 탐색하는 방법: 모든 명령어에 l을 제일 앞에 붙인다<br/>
+  > > ex)lcd ../test<br/>
+  > > -r: 디렉터리 복사하는 옵션<br/>
+  > > ex) put -r ./someDirectory<br/>
+  > > ex) get -r ./someDirectory<br/>
   
