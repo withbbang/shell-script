@@ -9,3 +9,8 @@
 
 - Mac: [Shift] + [Command] + V
 - Win: [Ctrl] + [Shift] + V
+
+3. Command Palette를 오픈
+
+- Mac: [Command] + [Shift] + P
+- Win: [Ctrl] + [Shift] + P
