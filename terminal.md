@@ -194,4 +194,9 @@
   > > -r: 디렉터리 복사하는 옵션<br/>
   > > ex) put -r ./someDirectory<br/>
   > > ex) get -r ./someDirectory<br/>
-  
+
+- host [domain url]
+
+  > host: domain의 IP를 출력해주는 명령어이다.<br/>
+  > ex) 네이버 도메인의 IP를 출력해라.<br/>
+  > --> host naver.com<br/>
