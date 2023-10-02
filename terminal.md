@@ -200,3 +200,9 @@
   > host: domain의 IP를 출력해주는 명령어이다.<br/>
   > ex) 네이버 도메인의 IP를 출력해라.<br/>
   > --> host naver.com<br/>
+
+- nslookup [domain url]
+
+  > nslookup: name server 관련한 조회를 할 수 있는 명령어이다.<br/>
+  > ex) 네이버 도메인의 IP를 출력해라.<br/>
+  > --> nslookup naver.com<br/>
