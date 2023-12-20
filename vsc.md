@@ -14,3 +14,8 @@
 
 - Mac: [Command] + [Shift] + P
 - Win: [Ctrl] + [Shift] + P
+
+4. 같은 모든 단어 선택
+
+- Mac: [Command] + [Shift] + L
+- Win: [Ctrl] + [Shift] + L
